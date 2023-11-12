@@ -1,8 +1,19 @@
-<div class="split">
-    <div class="body container">
-        <app-header></app-header>
+<nav>
+    <app-nav></app-nav>
+</nav>
+<main class="app-container column">
+    <div class="hero column">
+        <img class="image uninteractable" src="./assets/images/less-darker.png">
+        <p class="description">
+            A free, open-source companion app for
+            <a href="https://darkanddarker.com/" target="blank">
+                Dark & Darker™
+            </a>
+        </p>
         <app-download></app-download>
     </div>
-    <app-socials></app-socials>
-    <app-footer></app-footer>
-</div>
+    <footer class="footer column">
+        <app-socials></app-socials>
+        <app-footer></app-footer>
+    </footer>
+</main>

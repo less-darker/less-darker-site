@@ -1,19 +1,36 @@
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 88vh;
-    max-height: 88vh;
+nav {
+    position: fixed;
 }
 
-.split {
-    display: flex;
-    flex-direction: column;
+img {
+    max-width: 50vw;
+    margin-bottom: 0px;
+}
+
+a {
+    color: orange;
+    font-family: NotoSans, Arial;
+}
+
+footer {
+    max-width: 50vw;
+    margin: 5px;
+}
+
+.app-container {
     min-height: 100vh;
     max-height: 100vh;
     background-image: url('../assets/images/background.png');
     background-size: 100% 1000px;
     background-repeat: repeat;
     background-position: center;
+    justify-content: flex-end;
+}
+
+.hero {
+    margin-bottom: 5%;
+}
+
+.description {
+    margin-top: 0;
 }
